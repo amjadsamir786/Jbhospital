@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>J B Hospital & Stone Clinic</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head><body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-900 text-white text-center py-8">
+    <div class="flex justify-center mb-4">
+      <img src="images/logo.jpg" alt="J B Hospital Logo" class="w-28 h-28 rounded-full shadow-lg border-4 border-white">
+    </div>
+    <h1 class="text-4xl md:text-5xl font-extrabold tracking-wide">J B Hospital & Stone Clinic</h1>
+    <p class="text-md mt-2">Thawe Road, Gopalganj</p>
+  </header>  <!-- Doctor Info -->  <section class="text-center py-10 bg-gray-100">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-blue-800">Dr. Sunil Kumar Ranjan</h2>
+    <p class="text-lg md:text-xl text-gray-700 mt-2 font-semibold">MBBS, MS, FAIS, FIAGES</p>
+    <p class="text-md text-gray-600 mt-1">Specialist in General, Laparoscopic & Laser Surgery</p>
+  </section>  <!-- Services -->  <section class="py-10 px-6 text-center">
+    <h3 class="text-2xl font-semibold text-blue-700 mb-6">Our Services</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left text-gray-700 max-w-6xl mx-auto">
+      <div>
+        <h4 class="font-bold text-blue-800 mb-2">General Surgery</h4>
+        <ul class="list-disc ml-6">
+          <li>Hernia Repair (Inguinal, Umbilical, Incisional)</li>
+          <li>Appendectomy</li>
+          <li>Breast Lump Removal</li>
+          <li>Hydrocele Surgery</li>
+          <li>Abscess Drainage</li>
+          <li>Intestinal Obstruction</li>
+          <li>Perforation Repair</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-blue-800 mb-2">Laparoscopic Surgery</h4>
+        <ul class="list-disc ml-6">
+          <li>Laparoscopic Cholecystectomy (Gallbladder Removal)</li>
+          <li>Laparoscopic Appendectomy</li>
+          <li>Diagnostic Laparoscopy</li>
+          <li>Laparoscopic Hernia Repair</li>
+          <li>Laparoscopic Hysterectomy</li>
+          <li>PCNL</li>
+          <li>TURP</li>
+          <li>URS</li>
+          <li>PCCL</li>
+          <li>Stricture Urethra</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-blue-800 mb-2">Laser Surgery</h4>
+        <ul class="list-disc ml-6">
+          <li>Laser Piles Surgery</li>
+          <li>Laser Fissure Surgery</li>
+          <li>Laser Fistula Treatment</li>
+          <li>Laser Varicose Veins Surgery</li>
+          <li>Laser Circumcision</li>
+        </ul>
+      </div>
+    </div>
+  </section>  <!-- Special Diseases Section -->  <section class="py-8 px-4 bg-blue-50 text-center">
+    <h3 class="text-xl font-semibold text-blue-800 mb-2">Book an Appointment for</h3>
+    <p class="text-gray-700">Liver, Kidney, Breast, Gallbladder, Chest and Urine Disease</p>
+  </section>  <!-- Hospital Image -->  <section class="py-8 px-4 text-center">
+    <h3 class="text-xl font-semibold text-blue-700 mb-4">Hospital View</h3>
+    <img src="images/hospital.jpg" alt="Hospital Building" class="mx-auto rounded shadow-md w-full max-w-md mb-6">
+  </section>  <!-- Appointment Form -->  <section class="py-8 px-4">
+    <h3 class="text-xl font-semibold text-center text-blue-700 mb-6">Book an Appointment</h3>
+    <form name="appointment" method="POST" data-netlify="true" class="max-w-md mx-auto bg-gray-100 p-6 rounded shadow">
+      <input type="hidden" name="form-name" value="appointment"><label class="block mb-2 font-medium">Patient Name</label>
+  <input type="text" name="patient-name" required class="w-full p-2 border rounded mb-4">
+
+  <label class="block mb-2 font-medium">Patient Age</label>
+  <input type="number" name="patient-age" required class="w-full p-2 border rounded mb-4">
+
+  <label class="block mb-2 font-medium">Patient Address</label>
+  <textarea name="patient-address" required class="w-full p-2 border rounded mb-4"></textarea>
+
+  <label class="block mb-2 font-medium">Appointment Date</label>
+  <input type="date" name="appointment-date" required class="w-full p-2 border rounded mb-6">
+
+  <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">Submit</button>
+</form>
+
+  </section>  <!-- Contact -->  <section class="bg-blue-900 text-white text-center py-6">
+    <h4 class="text-lg font-semibold">Contact Us</h4>
+    <p>Mob: 9162669498, 9576917997</p>
+    <p>Email: jbhospital29515@gmail.com, mdamjadsamir@gmail.com</p>
+  </section>  <!-- Footer -->  <footer class="text-center text-sm text-gray-500 py-4">
+    &copy; 2025 J B Hospital & Stone Clinic. All rights reserved.
+  </footer>
+</body></html>
